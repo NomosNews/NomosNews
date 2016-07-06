@@ -1,24 +1,24 @@
-<nav alt="Golang News - Curated links about the Go programming language">
+<nav alt="Nomos News - Own the News">
   <ul class="title">
     
     <li class="user_badge">
       {{ if not .current_user.Anon }}
         <a href="/users/{{.current_user.Id}}">{{.current_user.Name}} ({{.current_user.Points}})</a>
       {{ else }}
-        <span class="short">Golang News</span>
-        <span class="long">Curated links and news about the Go Programming language</span>
+        <span class="short">Nomos News</span>
+        <span class="long">Sovereignty Security Sanity</span>
       {{ end }}
     </li>
         
-      <!-- change to http://golangnews.com -->
+      <!-- change to https://nomos.news -->
     <li class="site">
-      <a href="http://golangnews.com" title="Golang News - Curated links about the Go programming language">
-        <span class=" logo">GN</span>
+      <a href="https://nomos.news" title="Nomos News - Sovereignty Security Sanity">
+        <span class=" logo">nn</span>
       </a>
     </li>
 
     <li class="search">
-    <a class="show" href="#" data-show=".search_form" title="Search for links about the Go programming language">
+    <a class="show" href="#" data-show=".search_form" title="Search for links">
     <img src="/assets/images/app/search.png" class="search_image">
     </a>
     </li>
@@ -32,21 +32,22 @@
   </ul>
   
   <ul class="sections">
-    <li class="long"><a href="http://golangnews.com">Golang News</a></li>
-    <li><a title="Golang Code Packages" href="/stories/code">Code</a></li>
-    <li><a title="Videos about the Go programming language" href="/stories?q=Video:">Videos</a></li>
-    <li><a title="Jobs for Go programmers" href="/stories?q=Hiring:">Jobs</a></li>
-    <li><a title="Events for Go programmers" href="/stories?q=Event:">Events</a></li>
-    <li><a title="Books for Go programmers" href="/stories?q=Book:">Books</a></li>
-    <li><a title="Podcasts and Screencasts about Go" href="/stories?q=Cast:">Casts</a></li>
-    <li><a title="Newest articles about the Go programming language" href="/stories">New</a></li>
-    <li><a title="A place to show GN your stuff" href="/stories?q=Show:">Show</a></li>
+    <li class="long"><a href="https://nomos.news">Nomos News</a></li>
+    <li><a title="Newest stories" href="/stories">New</a></li> 
+    <li><a title="Videos about interesting topics" href="/stories?q=Video:">Videos</a></li>
+    <li><a title="Jobs for NNers" href="/stories?q=Hiring:">Jobs</a></li>
+    <li><a title="Events for NNers" href="/stories?q=Event:">Events</a></li>
+    <li><a title="Books for NNers" href="/stories?q=Book:">Books</a></li>
+    <li><a title="A place to show NN your stuff" href="/stories?q=Show:">Show</a></li>
     <li><a title="Ask golang news" href="/stories?q=Ask:">Ask</a></li>
-    <li><a href="/comments">Talk</a></li>
+    <li><a title="Latest comments" href="/comments">Talk</a></li>
+    <li><a title="NomosNews Blog" href="http://blog.nomos.news">Blog</a></li>
+    <li><a title="Crowdsale" href="http://sale.nomos.news"><b>Sale</b></a></li>
     {{ if not .current_user.Anon }}
     <li class="submit"><a href="/stories/create" title="Submit links about the Go programming language">Submit</a></li>
     {{ else }}
     <li class="submit"><a class="register" href="/users/create">Register</a></li>
+    <li class="submit"><a class="login" href="/users/login">Login</a></li>
     {{ end }}
   </ul>
   
@@ -60,5 +61,3 @@
   
   <div class="clear"></div>
 </nav>
-  
-  
