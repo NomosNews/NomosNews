@@ -40,15 +40,9 @@
     <li><a title="Books for NNers" href="/stories?q=Book:">Books</a></li>
     <li><a title="A place to show NN your stuff" href="/stories?q=Show:">Show</a></li>
     <li><a title="Ask golang news" href="/stories?q=Ask:">Ask</a></li>
-<<<<<<< HEAD
     <li><a title="Latest comments" href="/comments">Talk</a></li>
     <li><a title="NomosNews Blog" href="http://blog.nomos.news">Blog</a></li>
-    <li><a title="Crowdsale" href="http://sale.nomos.news"><b>Sale</b></a></li>
-=======
-    <li><a title="Stories you have upvoted in the past" href="/stories/upvoted">Upvoted</a></li>
-    
-    <li><a href="/comments">Talk</a></li>
->>>>>>> 3ef49088f2478a9c9de495fc53e2f3bb4b7b569e
+    <li><a title="Crowdsale" href="http://sale.nomos.news"><b>Sale</b></a></li> 
     {{ if not .current_user.Anon }}
     <li class="submit"><a href="/stories/create" title="Submit links about the Go programming language">Submit</a></li>
     {{ else }}
